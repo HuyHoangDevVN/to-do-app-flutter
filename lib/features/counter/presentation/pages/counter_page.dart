@@ -9,7 +9,7 @@ class CounterPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('Counter')),
+      appBar: AppBar(title: const Text('Test')),
       body: Center(child: CounterDisplay()),
       floatingActionButton: FloatingActionButton(
         onPressed: () => context.read<CounterCubit>().increment(),
