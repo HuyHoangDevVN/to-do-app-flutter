@@ -19,7 +19,6 @@ class _TaskListPageState extends State<TaskListPage> {
   @override
   void initState() {
     super.initState();
-    // initial load
     WidgetsBinding.instance.addPostFrameCallback((_) {
       context.read<TaskCubit>().loadTasks();
     });
